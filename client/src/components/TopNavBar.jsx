@@ -14,21 +14,6 @@ const phoneNumber = "+13182642314";
       </div>
       <ul className="top-nav__menu">
         <li className="top-nav__item">
-          <a href="/" className="top-nav__link">
-            Home
-          </a>
-        </li>
-        <li className="top-nav__item">
-          <a href="/about" className="top-nav__link">
-            About
-          </a>
-        </li>
-        <li className="top-nav__item">
-          <a href="/pricing" className="top-nav__link">
-            Plans & Prices
-          </a>
-        </li>
-        <li className="top-nav__item">
           <PhoneButton phoneNumber={phoneNumber} />
         </li>
       </ul>

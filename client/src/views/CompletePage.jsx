@@ -31,7 +31,7 @@ const CompletePage = () => {
         <TopNavBar />
       </header>
       <main className="main">
-        <div className="row1">
+        <div id="target-element-id1" className="row1">
           <div className="">
             <h1 className="main__heading">Load Me Something, Mister!</h1>
             <p className="main__text">
@@ -43,7 +43,7 @@ const CompletePage = () => {
             </div>
           </div>
         </div>
-        <div className="row2">
+        <div id="target-element-id2" className="row2">
           <h1 className="main__heading">Meet Our Team</h1>
           <div className="team">
             {teamMembers.map((member) => (
@@ -60,7 +60,7 @@ const CompletePage = () => {
             ))}
           </div>
         </div>
-        <div className="row3">
+        <div id="target-element-id3" className="row3">
           <h1 className="main__heading">Services</h1>
           <div className="pricing-container">
             <PricingCard

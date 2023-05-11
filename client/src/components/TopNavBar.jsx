@@ -14,7 +14,7 @@ const phoneNumber = "+13182642314";
         </a>
       </div>
       <ul className="top-nav__menu">
-        <li className="top-nav__item">
+        {/* <li className="top-nav__item">
           <Link
             to="target-element-id1"
             smooth={true}
@@ -43,7 +43,7 @@ const phoneNumber = "+13182642314";
           >
             Plans & Prices
           </Link>
-        </li>
+        </li> */}
         <li className="top-nav__item">
           <PhoneButton phoneNumber={phoneNumber} />
         </li>

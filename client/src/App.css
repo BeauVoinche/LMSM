@@ -104,6 +104,7 @@
 
 .top-nav__link:hover {
   color: #333;
+  cursor: pointer;
 }
 
 .team {
